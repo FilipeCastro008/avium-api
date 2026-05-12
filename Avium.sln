@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avium.API", "Presentation\Avium.API.csproj", "{C776904D-5854-439F-85B7-A7E0692E1D40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application\Application.csproj", "{A0106EAB-46DD-414C-8478-AFB1EF5B1F04}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain\Domain.csproj", "{54794DFC-5415-4E78-962A-941EAF815B6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{B10A0247-AC3E-4CAA-BB7E-CB3A2EB53B00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - Data", "4.1 - Data", "{EB088E89-4B20-4550-8294-EF148DDF049D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - Crosscutting", "4.2 - Crosscutting", "{C5DEEDFB-20E8-4979-9708-50B0F7AD5629}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Infrastructure\Data\Data\Data.csproj", "{00B385B7-2283-4B72-B65E-2B08A1A77447}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crosscutting.Common", "Infrastructure\Crosscutting\Crosscutting\Crosscutting.Common.csproj", "{70A48172-4280-47A8-870F-284C37237F20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{A349A181-35D2-4354-970C-8B635A0723D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{44AC53BB-310F-4FFE-8779-D049BACF2B3B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{026E1018-5AD6-4AAA-9823-BFFFA26E2A06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C776904D-5854-439F-85B7-A7E0692E1D40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C776904D-5854-439F-85B7-A7E0692E1D40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C776904D-5854-439F-85B7-A7E0692E1D40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C776904D-5854-439F-85B7-A7E0692E1D40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0106EAB-46DD-414C-8478-AFB1EF5B1F04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0106EAB-46DD-414C-8478-AFB1EF5B1F04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0106EAB-46DD-414C-8478-AFB1EF5B1F04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0106EAB-46DD-414C-8478-AFB1EF5B1F04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54794DFC-5415-4E78-962A-941EAF815B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54794DFC-5415-4E78-962A-941EAF815B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54794DFC-5415-4E78-962A-941EAF815B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54794DFC-5415-4E78-962A-941EAF815B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B385B7-2283-4B72-B65E-2B08A1A77447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B385B7-2283-4B72-B65E-2B08A1A77447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B385B7-2283-4B72-B65E-2B08A1A77447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B385B7-2283-4B72-B65E-2B08A1A77447}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70A48172-4280-47A8-870F-284C37237F20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A48172-4280-47A8-870F-284C37237F20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A48172-4280-47A8-870F-284C37237F20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A48172-4280-47A8-870F-284C37237F20}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C776904D-5854-439F-85B7-A7E0692E1D40} = {A349A181-35D2-4354-970C-8B635A0723D5}
+		{A0106EAB-46DD-414C-8478-AFB1EF5B1F04} = {44AC53BB-310F-4FFE-8779-D049BACF2B3B}
+		{54794DFC-5415-4E78-962A-941EAF815B6F} = {026E1018-5AD6-4AAA-9823-BFFFA26E2A06}
+		{EB088E89-4B20-4550-8294-EF148DDF049D} = {B10A0247-AC3E-4CAA-BB7E-CB3A2EB53B00}
+		{C5DEEDFB-20E8-4979-9708-50B0F7AD5629} = {B10A0247-AC3E-4CAA-BB7E-CB3A2EB53B00}
+		{00B385B7-2283-4B72-B65E-2B08A1A77447} = {EB088E89-4B20-4550-8294-EF148DDF049D}
+		{70A48172-4280-47A8-870F-284C37237F20} = {C5DEEDFB-20E8-4979-9708-50B0F7AD5629}
+	EndGlobalSection
+EndGlobal
