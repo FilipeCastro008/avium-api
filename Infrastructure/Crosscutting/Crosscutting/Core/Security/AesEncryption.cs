@@ -37,7 +37,7 @@ namespace Crosscutting.Common.Core.Security {
         public string Encrypt(string plainText) {
 
             if (string.IsNullOrWhiteSpace(plainText))
-                return plainText;
+                return plainText;//Adicionar tratamento para esse retorno na camada de serviço.
 
             var nonce = RandomNumberGenerator.GetBytes(NonceSize);
 
@@ -66,7 +66,7 @@ namespace Crosscutting.Common.Core.Security {
         public string Decrypt(string cipherText) {
 
             if (string.IsNullOrWhiteSpace(cipherText))
-                return cipherText;
+                return cipherText;//Adicionar tratamento na camada de serviço.
 
             var parts = cipherText.Split('.');
 

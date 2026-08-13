@@ -1,13 +1,17 @@
 ﻿namespace Domain.Common.Validation {
 
     public static class DomainValidator {
+
+        #region Methods
+
         public static void Validator(params ValidationRule[] rules) {
-            
-            foreach(var rule in rules) {
+
+            foreach (var rule in rules) {
                 rule.Validate();
             }
-
         }
+
+        #endregion
     }
 
     public class ValidationRule {
