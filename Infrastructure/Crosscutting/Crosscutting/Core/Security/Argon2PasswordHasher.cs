@@ -42,10 +42,10 @@ namespace Crosscutting.Common.Core.Security {
         public bool Verify(string password, string passwordHash) {
 
             if (string.IsNullOrWhiteSpace(password))
-                return false;
+                return false; //Tratar retorno no serviço
 
             if (string.IsNullOrWhiteSpace(passwordHash))
-                return false;
+                return false; //Tratar retorno no serviço
 
             var parts = passwordHash.Split('$', StringSplitOptions.RemoveEmptyEntries);
 
